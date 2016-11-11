@@ -1,0 +1,961 @@
+html * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container-top {
+    display: -webkit-flex;
+    display: flex;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-experience {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-skills {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-education {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-center {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: left;
+    width:  1105px;
+    height: 310px;
+    background-color: #E5E5E5;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-bottom {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-item-top {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #D9534F;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 22px;
+}
+
+.flex-item-bottom {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #5BC0DE;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 22px;
+}
+
+.flex-container-self-training {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flex-container-life-style {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width:  1105px;
+    height: 310px;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.versionlog {
+    position: relative;
+    left: 10px;
+    background-color: #5BC0DE;
+    color: white;
+    width: 295px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px;
+}
+
+.progress {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 10px;
+}
+
+#infopanel {
+    width:  1105px;
+    height: 200px;
+}
+
+#mypic {
+    position: relative;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px;
+}
+
+#info-data {
+    margin-left: 20px;
+}
+
+#info-data img {
+    border-radius: 4px;
+    margin-bottom: 3px;
+    box-shadow: 0px 0px 2.5px;
+}
+
+#info-data p {
+    font-size: 16px;
+}
+
+#info-btn-group {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+#info-btn-1, #info-btn-2, #info-btn-3 {
+    width: 125px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #D9534F;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
+}
+
+#info-btn-4, #info-btn-5, #info-btn-6 {
+    width: 125px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #5BC0DE;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
+}
+
+
+.panel-off {
+    display: none;
+}
+
+
+#phase1-modal {
+    display: none;
+}
+
+#zdlogo {
+    box-shadow: 0px 0px 3px;
+}
+
+#phase1-exp-desc {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#phase1-exp-desc p {
+    margin-left: 40px;
+}
+
+#exp-phase1-row-1 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#gamesofalogo {
+    box-shadow: 0px 0px 3px;
+}
+
+#phase2-exp-desc {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#phase2-exp-desc p {
+    margin-left: 10px;
+}
+
+
+#exp-phase2-row-1 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#aktsklogo {
+    box-shadow: 0px 0px 3px;
+}
+
+#phase3-exp-desc {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#phase3-exp-desc p {
+    margin-left: 10px;
+}
+
+#exp-phase3-row-1 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.projectvids {
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 3px;
+}
+
+.project-desc {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.modal-header h1 {
+    margin-left: 20px;
+}
+
+.modal-body img {
+    margin-left: 20px;
+}
+
+#worksmart-pic {
+    margin-left: 135px;
+}
+
+#languages-pic {
+    position: relative;
+    left: 130px;
+}
+
+#tajen-pic {
+    position: relative;
+    left: 200px;
+}
+
+#axurelogo {
+    margin-bottom: 10px;
+}
+
+#axure-desc p {
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#self-training-axure-row-1 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+#axure-prototype-panel-1 {
+    width: 370px;
+    height: 170px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#axure-prototype-pic-1 {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+#axure-prototype-pic-1 img {
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#axure-prototype-desc-1 {
+    position: absolute;
+    left: 210px;
+    bottom: 10px;
+    width: 170px;
+    height: 150px;
+    display: none;
+    font-size: 12px;
+}
+
+#axure-prototype-title-1 {
+    position: absolute;
+    left: 210px;
+    bottom: 10px;
+    width: 170px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+#axure-prototype-panel-2 {
+    width: 370px;
+    height: 170px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#axure-prototype-pic-2 img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#axure-prototype-desc-2 {
+    position: absolute;
+    left: 210px;
+    bottom: 10px;
+    width: 170px;
+    height: 150px;
+    display: none;
+    font-size: 12px;
+}
+
+#axure-prototype-title-2 {
+    position: absolute;
+    left: 210px;
+    bottom: 10px;
+    width: 170px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+#webdev-pic {
+    position: relative;
+    left: 115px;
+}
+
+#coffee-panel {
+    width: 800px;
+    height: 700px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    margin-left: 35px;
+}
+
+#coffee-best-btn {
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 150px;
+}
+
+#coffee-wilbeck-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-louisa-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-cama-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-nichi-btn {
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 150px;
+}
+
+#coffee-fika-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-crown-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-oven-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+#coffee-map {
+    margin-left: 25px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 2px;
+}
+
+/*Movie modal*/
+
+#nav-placeholder {
+    position: relative;
+    width: 830px;
+    height: 40px;
+    left: 15px;
+}
+
+#marvel-nav-btn {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color: #EA0200;
+    color: #FFFFFF;
+    font-size: 18px;
+    z-index: 1;
+    display: none;
+}
+
+#dc-nav-btn {
+    position: absolute;
+    left: 710px;
+    width: 120px;
+    height: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 18px;
+    z-index: 1;
+    display: none;
+}
+
+#movie-panel {
+    position: relative;
+    left: 15px;
+    width: 830px;
+    height: 730px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+}
+
+#movie-cover-group {
+    width: 845px;
+    height: 730px;
+    border: 3px solid #e5e5e5;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+#marvel-cover-btn {
+    position: absolute;
+    left: 250px;
+    top: 340px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e60400;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+#dc-cover-btn {
+    position: absolute;
+    left: 410px;
+    top: 340px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-left: 14px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+
+/*Marvel-Container*/
+#dr-strange-panel {
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#dr-strange-cover{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    box-shadow: 0px 0px 4px;
+    z-index: 2;
+}
+
+#dr-strange-yt{
+    position: absolute;
+    margin-left: 20px;
+    width: 450px;
+    height: 220px;
+    z-index: 1;
+}
+
+#guardians-panel{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 255px;
+    margin-left: 15px;
+}
+
+#guardians-cover{
+    position: absolute;
+    width: 450px;
+    height: 225px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#guardians-yt{
+    position: relative;
+    margin-left: 20px;
+    width: 450px;
+    height: 225px;
+}
+
+#cpt-america-panel{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 495px;
+    margin-left: 15px;
+}
+
+#cpt-america-cover{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#cpt-america-yt{
+    position: absolute;
+    margin-left: 20px;
+    width: 450px;
+    height: 220px;
+}
+
+#avengers-panel{
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    margin-top: 160px;
+    margin-left: 505px;
+}
+
+#avengers-cover {
+    position: absolute;
+    margin-left: 0px;
+    width: 320px;
+    height: 160px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#avengers-yt {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+}
+
+#antman-panel{
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    margin-top: 400px;
+    margin-left: 505px;
+}
+
+#antman-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 320px;
+    height: 160px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#antman-yt {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+}
+
+/*DC-Container*/
+#justice-panel{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 15px;
+    margin-left: 370px;
+}
+
+#justice-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 450px;
+    height: 220px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#justice-yt {
+    position: absolute;
+    width: 450px;
+    height: 220px;
+}
+
+#wonder-woman-panel{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 255px;
+    margin-left: 370px;
+}
+
+#wonder-woman-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 450px;
+    height: 220px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#wonder-woman-yt {
+    position: absolute;
+    width: 450px;
+    height: 220px;
+}
+
+#bvs-panel{
+    position: absolute;
+    width: 450px;
+    height: 220px;
+    margin-top: 490px;
+    margin-left: 370px;
+}
+
+#bvs-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 450px;
+    height: 220px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#bvs-yt {
+    position: absolute;
+    width: 450px;
+    height: 220px;
+}
+
+#suicide-squad-panel{
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+#suicide-squad-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 320px;
+    height: 160px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#suicide-squad-yt {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+}
+
+#super-man-panel{
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    margin-top: 400px;
+    margin-left: 30px;
+}
+
+#super-man-cover{
+    position: absolute;
+    margin-left: 0px;
+    width: 320px;
+    height: 160px;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+}
+
+#super-man-yt {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+}
+
+
+
+/*TV Modal*/
+#tv-show-panel {
+    position: relative;
+    width: 900px;
+    height: 700px;
+}
+
+#tv-master {
+    position: absolute;
+    margin: 10px;
+    left: 40px;
+    width: 800px;
+    height: 450px;
+}
+
+#tv-cover {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+
+#tv-cover p {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 40px;
+}
+
+#tv-yt-panel {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+}
+
+
+#tv-got {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 50px;
+    top: 500px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-twd {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 260px;
+    top: 500px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-aos {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 470px;
+    top: 500px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-flash {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 680px;
+    top: 500px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-dd {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 50px;
+    top: 600px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-jj {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 260px;
+    top: 600px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-luke {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 470px;
+    top: 600px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#tv-fist {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 680px;
+    top: 600px;
+    background-color: black;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#reading-panel {
+    position: relative;
+    width: 835px;
+    height: 495px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+#howgoogleworks {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 380px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#goodtogreat {
+    position: absolute;
+    left: 430px;
+    top: 20px;
+    width: 380px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#sprint {
+    position: absolute;
+    left: 20px;
+    top: 270px;
+    width: 145px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#workrules {
+    position: absolute;
+    left: 185px;
+    top: 270px;
+    width: 145px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#elonmusk {
+    position: absolute;
+    left: 345px;
+    top: 270px;
+    width: 145px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#stevejobs {
+    position: absolute;
+    left: 505px;
+    top: 270px;
+    width: 145px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#zerotoone {
+    position: absolute;
+    left: 665px;
+    top: 270px;
+    width: 145px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
