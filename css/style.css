@@ -7,7 +7,7 @@ html * {
     display: flex;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -18,7 +18,7 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -29,7 +29,7 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -40,7 +40,7 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -62,13 +62,13 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
 
 .flex-item-top {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -77,10 +77,12 @@ html * {
     text-align: center;
     line-height: 100px;
     font-size: 22px;
+    border: 0px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 .flex-item-bottom {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -89,6 +91,8 @@ html * {
     text-align: center;
     line-height: 100px;
     font-size: 22px;
+    border: 0px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 .flex-container-self-training {
@@ -97,7 +101,7 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -108,7 +112,7 @@ html * {
     justify-content: center;
     width:  1105px;
     height: 310px;
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     align-items: center;
     border-radius: 10px;
 }
@@ -116,14 +120,15 @@ html * {
 
 .versionlog {
     position: relative;
-    left: 10px;
+    left: 20px;
     background-color: #5BC0DE;
     color: white;
-    width: 295px;
+    width: 260px;
     height: 180px;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0px 0px 4px;
+    border: 0px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 .progress {
@@ -143,8 +148,8 @@ html * {
     width: 180px;
     height: 180px;
     border-radius: 10px;
-
-    box-shadow: 0px 0px 5px;
+    border: 0px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #info-data {
@@ -168,6 +173,7 @@ html * {
 
 
 #info-btn-1, #info-btn-2, #info-btn-3 {
+    margin-left: 10px;
     width: 125px;
     height: 35px;
     font-size: 18px;
@@ -179,6 +185,7 @@ html * {
 }
 
 #info-btn-4, #info-btn-5, #info-btn-6 {
+    margin-left: 10px;
     width: 125px;
     height: 35px;
     font-size: 18px;

@@ -37,27 +37,27 @@ $(function(){
             switch ($infoBtnGroup.index(this)) {
                 case 0:
                     $('.flex-container-experience').stop(true).fadeIn(fadInOutTime);
-                    $phaseGroup.hide().show('slide',{direction:'up'},infoPanelGroupSlideTime);
+                    $phaseGroup.hide().show('slide',{direction:'down'},infoPanelGroupSlideTime);
                 break;
 
                 case 1:
                     $('.flex-container-skills').stop(true).fadeIn(fadInOutTime);
-                    $skillGroup.hide().show('slide',{direction:'up'},infoPanelGroupSlideTime);
+                    $skillGroup.hide().show('slide',{direction:'down'},infoPanelGroupSlideTime);
                 break;
 
                 case 2:
                     $('.flex-container-education').stop(true).fadeIn(fadInOutTime);
-                    $('#tajen').hide().show('slide',{direction:'up'},infoPanelGroupSlideTime);
+                    $('#tajen').hide().show('slide',{direction:'down'},infoPanelGroupSlideTime);
                 break;
 
                 case 3:
                     $('.flex-container-self-training').stop(true).fadeIn(fadInOutTime);
-                    $selfTrainingGroup.hide().show('slide',{direction:'down'},infoPanelGroupSlideTime);
+                    $selfTrainingGroup.hide().show('slide',{direction:'up'},infoPanelGroupSlideTime);
                 break;
 
                 case 4:
                     $('.flex-container-life-style').stop(true).fadeIn(fadInOutTime);
-                    $lifeStyleGroup.hide().show('slide',{direction:'down'},infoPanelGroupSlideTime);
+                    $lifeStyleGroup.hide().show('slide',{direction:'up'},infoPanelGroupSlideTime);
             }
         });
 
