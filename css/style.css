@@ -642,6 +642,12 @@ html * {
     height: 160px;
 }
 
+#dr-strange-cover:hover, #guardians-cover:hover,
+#cpt-america-cover:hover, #avengers-cover:hover,
+#antman-cover:hover {
+    box-shadow: 3px 3px 5px;
+}
+
 /*DC-Container*/
 #justice-panel{
     position: absolute;
@@ -659,6 +665,8 @@ html * {
     box-shadow: 0px 0px 2px;
     z-index: 1;
 }
+
+
 
 #justice-yt {
     position: absolute;
@@ -743,7 +751,7 @@ html * {
     margin-left: 30px;
 }
 
-#super-man-cover{
+#super-man-cover {
     position: absolute;
     margin-left: 0px;
     width: 320px;
@@ -758,6 +766,11 @@ html * {
     height: 160px;
 }
 
+#super-man-cover:hover, #suicide-squad-cover:hover,
+#bvs-cover:hover, #wonder-woman-cover:hover,
+#justice-cover:hover {
+    box-shadow: 3px 3px 5px;
+}
 
 
 /*TV Modal*/
@@ -893,7 +906,7 @@ html * {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px solid #e5e5e5;
+    background-color: #E5E5E5;
     border-radius: 5px;
 }
 
@@ -903,8 +916,8 @@ html * {
     top: 20px;
     width: 380px;
     height: 230px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #goodtogreat {
@@ -913,8 +926,8 @@ html * {
     top: 20px;
     width: 380px;
     height: 230px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #sprint {
@@ -923,8 +936,8 @@ html * {
     top: 270px;
     width: 145px;
     height: 200px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #workrules {
@@ -933,8 +946,8 @@ html * {
     top: 270px;
     width: 145px;
     height: 200px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #elonmusk {
@@ -943,8 +956,8 @@ html * {
     top: 270px;
     width: 145px;
     height: 200px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #stevejobs {
@@ -953,8 +966,8 @@ html * {
     top: 270px;
     width: 145px;
     height: 200px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
 
 #zerotoone {
@@ -963,6 +976,6 @@ html * {
     top: 270px;
     width: 145px;
     height: 200px;
-    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 3px -1px #4F4F4F;
 }
